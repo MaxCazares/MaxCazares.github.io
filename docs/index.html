@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/output.css" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet">
 
     <script>
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -13,7 +13,7 @@
             document.documentElement.classList.remove('dark')
         }
     </script>
-    <script src="../js/darkMode.js"></script>
+    <script src="./js/darkMode.js"></script>
 </head>
 
 <body>
@@ -86,6 +86,44 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-gray-100 dark:bg-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8 text-center">Education</h2>
+            <ul class="space-y-6">
+                <li class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Degree Name</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Institution Name - Graduation Year</p>
+                </li>
+                <li class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Another Degree</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Another Institution - Graduation Year</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Career Section -->
+    <section id="career" class="bg-white dark:bg-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8 text-center">Career</h2>
+            <ul class="space-y-6">
+                <li class="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Job Title</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Company Name - Dates Worked</p>
+                    <p class="text-gray-600 dark:text-gray-300">Brief description of responsibilities and
+                        accomplishments.</p>
+                </li>
+                <li class="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100">Another Job Title</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Another Company - Dates Worked</p>
+                    <p class="text-gray-600 dark:text-gray-300">Brief description of responsibilities and
+                        accomplishments.</p>
+                </li>
+            </ul>
         </div>
     </section>
 
